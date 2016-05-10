@@ -1,0 +1,10 @@
+**/.*/
+
+.DS_Store
+src/bower_components
+node_modules
+www
+*.log
+.env
+
+locales/origin.tmp.json
