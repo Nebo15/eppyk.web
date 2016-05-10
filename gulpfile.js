@@ -237,7 +237,7 @@ gulp.task('watch', function () {
 // Deploy gh-pages
 gulp.task('deploy-prefix', function () {
   return gulp.src('./www/**/*.html')
-    .pipe(prefix('/forza-web'))
+    .pipe(prefix('/eppyk-web'))
     .pipe(gulp.dest('./www'));
 });
 
