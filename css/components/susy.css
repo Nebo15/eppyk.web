@@ -1,0 +1,4 @@
+/* Makes border-box properties */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/bower_components\/susy\/sass\/susy\/language\/susy\/_box-sizing\.scss}line{font-family:\0000321}}
+*, *:before, *:after {
+  box-sizing: border-box; }
