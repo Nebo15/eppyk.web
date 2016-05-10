@@ -32,12 +32,15 @@ html
 body
   font: 200 14px/1.4 'Montserrat', Helvetica, Arial, sans-serif
   color: white
-
-  +container(1020px)
+  margin: 0
+  padding: 0
 
   overflow: auto
   -webkit-overflow-scrolling: touch
 
+.wrap
+  +container(1020px)
+  padding: gutter()
 $break-tablet: 768
 $break-phone: 320
 
@@ -52,6 +55,7 @@ $break-phone: 320
 //.logo-header
 //  .logo-text, .logo-image
 //    box-shadow: 0 0 121.8px 9.2px rgba(8, 207, 255, 0.26)
+
 .header
   text-align: center
   .logo
@@ -61,7 +65,7 @@ $break-phone: 320
     overflow: hidden
   .header-subtitle
     margin-top: 24px
-.header-title
+.h1
   font-size: 36px
   font-weight: bold
 .header-subtitle
@@ -71,14 +75,29 @@ $break-phone: 320
 .market-links
   margin-top: 44px - 10px // 10px is margin of links
   margin-left: -30px
-  .link-appstore, .link-googleplay
+  a
     display: inline-block
     margin-left: 30px
     margin-top: 10px
+.market-links-small
+  margin-top: 44px - 10px // 10px is margin of links
+  margin-left: -15px
+  a
+    display: inline-block
+    margin-left: 15px
+    margin-top: 10px
+
 .link-appstore
   +svg(appstore, 170, 51)
+.link-appstore-small
+  +svg(appstore, 125, 38)
+
 .link-googleplay
   +svg(googleplay, 153, 51)
+
+.link-googleplay-small
+  +svg(googleplay, 113, 38)
+
 
 .screens
   position: relative
@@ -115,3 +134,104 @@ $break-phone: 320
   &:hover .stars-top
     transform: translate3d(1%, -2%, 0)
 
+.boy-star
+  position: relative
+  +container(850px)
+  .boy-image
+    display: none
+  text-align: center
+
+
+  +min-screen($break-tablet)
+    text-align: left
+    .boy-image
+      display: inherit
+      width: 750px
+      margin-left: -200px
+      margin-top: -100px
+    .text
+      position: absolute
+      top: 200px
+      left: 300px
+
+.features
+  margin-top: 40px
+  .h1
+    text-align: center
+  .feature
+    text-align: center
+  padding: gutter()
+  .features-in
+    margin-top: 40px
+    +clr
+    .left
+      float: left
+      text-align: center
+      width: 50%
+    .right
+      float: right
+      text-align: center
+      width: 50%
+    .phone-screen
+      clear: both
+      padding-top: 30px
+    +min-screen($break-tablet)
+      .left, .right
+        width: 25%
+        padding-top: 100px
+      .left
+        text-align: right
+      .right
+        text-align: left
+      .phone-screen
+        clear: none
+        width: 50%
+        margin-left: 25%
+
+
+
+.feature
+  display: inline-block
+
+.feature-text
+  text-align: left
+
+  span
+    display: block
+    color: $yellow
+    font-size: 24px
+    margin-bottom: 10px
+
+p
+  font-size: 14px
+  font-weight: 400
+.h2
+  font-size: 30px
+  font-weight: 600
+  text-transform: uppercase
+
+.phone-screen
+  text-align: center
+  img
+    display: inline-block
+    width: 650px
+    margin-left: -208px
+    margin-right: -216px
+    margin-top: -90px
+    margin-bottom: -90px
+.be-happy
+  margin-top: 40px
+  text-align: center
+  span
+    display: block
+    color: $yellow
+    font-size: 24px
+    margin-top: 10px
+
+.footer
+
+  font-weight: bold
+  border-top: 1px solid white
+  padding: 43px 10px
+  text-align: center
+  margin-top: 80px

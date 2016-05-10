@@ -1,4 +1,6 @@
 @import ../lib/sprites
+@import ../lib/mixins
+
 
 .icon
   display: inline-block
@@ -6,3 +8,10 @@
 @each $s in logo
   .icon-#{$s}
     +s(#{$s})
+
+.icon-shake
+  +svg(shake, 51, 67)
+.icon-ask
+  +svg(ask, 53, 66)
+.icon-star
+  +svg(star, 62, 59)
