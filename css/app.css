@@ -174,36 +174,34 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003108}}
   .screens .left, .screens .right {
     display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003113}}
+    position: absolute; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003112}}
   .screens .left {
-    -webkit-transform: translate3d(-102%, 2.5%, 0);
-    transform: translate3d(-102%, 2.5%, 0); }
+    right: 52%;
+    top: 2.5%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003115}}
   .screens .right {
-    -webkit-transform: translate3d(2%, 2.5%, 0);
-    transform: translate3d(2%, 2.5%, 0); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003117}}
+    left: 52%;
+    top: 2.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003119}}
   .screens .center {
     z-index: 1;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003122}}
   .screens img {
     max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003125}}
 .preview {
   margin-top: 40px;
   position: relative;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003129}}
   .preview .stars-bottom {
     position: absolute;
     top: 0;
     width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003134}}
   .preview .stars-top {
     position: absolute;
     bottom: 0;
@@ -211,12 +209,12 @@ body {
     transition:-webkit-transform 0.3s ease-in-out;
     transition:transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003139}}
   .preview:hover .stars-top {
     -webkit-transform: translate3d(1%, -2%, 0);
     transform: translate3d(1%, -2%, 0); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003142}}
 .boy-star {
   position: relative;
   max-width: 850px;
@@ -228,36 +226,36 @@ body {
     content: " ";
     display: block;
     clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003145}}
   .boy-star .boy-image {
     display: none; }
   @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003142}}
     .boy-star {
       text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003152}}
       .boy-star .boy-image {
         display: inherit;
         width: 750px;
         margin-left: -200px;
         margin-top: -100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003157}}
       .boy-star .text {
         position: absolute;
         top: 200px;
         left: 300px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003162}}
 .features {
   margin-top: 40px;
   padding: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003164}}
   .features .h1 {
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003166}}
   .features .feature {
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003169}}
   .features .features-in {
     margin-top: 40px;
     *zoom: 1; }
@@ -266,66 +264,66 @@ body {
       content: " ";
       display: table;
       clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003172}}
     .features .features-in .left {
       float: left;
       text-align: center;
       width: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003176}}
     .features .features-in .right {
       float: right;
       text-align: center;
       width: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003180}}
     .features .features-in .phone-screen {
       clear: both;
       padding-top: 30px; }
     @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003184}}
       .features .features-in .left, .features .features-in .right {
         width: 25%;
         padding-top: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003187}}
       .features .features-in .left {
         text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003189}}
       .features .features-in .right {
         text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003191}}
       .features .features-in .phone-screen {
         clear: none;
         width: 50%;
         margin-left: 25%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003198}}
 .feature {
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003201}}
 .feature-text {
   text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003204}}
   .feature-text span {
     display: block;
     color: #ffff08;
     font-size: 24px;
     margin-bottom: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003210}}
 p {
   font-size: 14px;
   font-weight: 400; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003213}}
 .h2 {
   font-size: 30px;
   font-weight: 600;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003218}}
 .phone-screen {
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003220}}
   .phone-screen img {
     display: inline-block;
     width: 650px;
@@ -334,21 +332,21 @@ p {
     margin-top: -90px;
     margin-bottom: -90px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003227}}
 .be-happy {
   margin-top: 40px;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003230}}
   .be-happy span {
     display: block;
     color: #ffff08;
     font-size: 24px;
     margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003236}}
   .be-happy .market-links {
     margin-top: 60px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003239}}
 .footer {
   font-weight: bold;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
