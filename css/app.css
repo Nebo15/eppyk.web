@@ -340,11 +340,16 @@ p {
     color: #ffff08;
     font-size: 24px;
     margin-top: 10px; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003231}}
+  .be-happy .market-links {
+    margin-top: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/app\.sass}line{font-family:\00003234}}
 .footer {
   font-weight: bold;
-  border-top: 1px solid white;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
   padding: 43px 10px;
   text-align: center;
-  margin-top: 80px; }
+  margin-top: 80px;
+  font-size: 11px;
+  text-transform: uppercase; }
