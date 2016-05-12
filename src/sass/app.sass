@@ -59,9 +59,22 @@ $break-phone: 320
 //  .logo-text, .logo-image
 //    box-shadow: 0 0 121.8px 9.2px rgba(8, 207, 255, 0.26)
 
+.header-logo
+  display: inline-block
+  padding-top: 120px
+  padding-bottom: 120px
+  padding-left: 121px
+  padding-right: 121px
+  .logo
+
+.logo
+  +svg(logo,180,65)
+  display: inline-block
+
+
 .header
   text-align: center
-  .logo
+  .header-logo
     margin-bottom: -60px
     margin-left: -121px
     margin-right: -121px
