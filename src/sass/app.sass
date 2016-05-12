@@ -4,8 +4,8 @@
 
 @import components/icon
 
-@import lib/media
-@import lib/mixins
+@import lib/base
+
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700)
 
@@ -25,9 +25,7 @@ a
 
 html
 
-  background-color: #072649
-  background: linear-gradient(to top, #072649 0%, #072649 46%, #0d326a 100%) 0 0 no-repeat
-  background-size: cover
+  background-color: #0d326a
 
 body
   font: 200 14px/1.4 'Montserrat', Helvetica, Arial, sans-serif
@@ -40,6 +38,8 @@ body
 
 .container
   overflow-x: hidden
+  background: linear-gradient(to top, #072649 0%, #072649 46%, #0d326a 100%) 0 0 no-repeat
+  background-size: cover
 
 .wrap
   +container(1020px)
@@ -61,23 +61,26 @@ $break-phone: 320
 
 .header-logo
   display: inline-block
-  padding-top: 120px
-  padding-bottom: 120px
-  padding-left: 121px
-  padding-right: 121px
+
+  padding-top: 87px
+
+  +png(logo-glow)
+
   .logo
 
 .logo
-  +svg(logo,180,65)
+  +svg(logo,287,103)
   display: inline-block
 
 
 .header
   text-align: center
   .header-logo
+    margin-left: -375px
+    margin-right: -375px
     margin-bottom: -60px
-    margin-left: -121px
-    margin-right: -121px
+
+
     overflow: hidden
   .header-subtitle
     margin-top: 24px
