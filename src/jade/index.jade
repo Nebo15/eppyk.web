@@ -9,7 +9,7 @@ html
     link(rel="icon", type="image/png", href="/images/favicon-32.png?v=12345", sizes="32x32")
     link(rel="icon", type="image/png", href="/images/favicon-96.png?v=12345", sizes="96x96")
   body
-    .container
+    .container#skrollr-body
       .wrap
         header.header
           .header-logo
@@ -31,7 +31,7 @@ html
             img(src="images/stars-top.png")
         .boy-star
           .boy-image: .hlopchyk
-            .hlopchyk-star
+            .hlopchyk-star(data-200-center="transform:translate3d(100px,-100px,0) rotate(10deg);", data--100-center="transform:translate3d(0,0,0) rotate(0)")
             .hlopchyk-dog
             .hlopchyk-boy
             .hlopchyk-globus
@@ -71,5 +71,6 @@ html
             a.link-googleplay(href="#")
       .footer Copyright © 2016 All Rights Reserved
     // build:js js/app.min.js
+    script(src='bower_components/skrollr/dist/skrollr.min.js')
     script(src='js/app.js')
     // endbuild
