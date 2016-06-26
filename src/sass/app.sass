@@ -169,6 +169,8 @@ $break-phone: 320
 .boy-star
   position: relative
   +container(850px)
+  +clr
+
   .boy-image
     display: none
   text-align: center
@@ -177,14 +179,20 @@ $break-phone: 320
   +min-screen($break-tablet)
     text-align: left
     .boy-image
-      display: inherit
-      width: 750px
-      margin-left: -200px
-      margin-top: -100px
+      display: inline-block
+      margin-left: -100px
     .text
+      //margin-left: 300px
+      //margin-top: 200px
+
       position: absolute
-      top: 200px
-      left: 300px
+      top: 150px
+      left: 290px
+
+.movie-answers-description
+  max-width: 400px
+  margin-top: 40px
+  display: inline-block
 
 .features
   margin-top: 40px
@@ -272,3 +280,29 @@ p
   margin-top: 80px
   font-size: 11px
   text-transform: uppercase
+
+.hlopchyk
+  position: relative
+  width: 378px
+  height: 650px
+  &-boy, &-dog, &-star, &-globus
+    position: absolute
+  &-boy
+    +png(hlopchik)
+    z-index: 2
+  &-dog
+    +png(hlopchik-dog)
+    top: 375px
+    z-index: 1
+    left: 110px
+  &-globus
+    +png(hlopchik-globus)
+    top: 430px
+    left: 80px
+    z-index: 0
+  &-star
+    +png(hlopchik-star)
+    top: -90px
+    right: -117px
+    z-index: 3
+
