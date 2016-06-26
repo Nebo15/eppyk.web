@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" href="/eppyk-web/images/favicon-96.png?v=12345" sizes="96x96">
   </head>
   <body>
-    <div class="container">
+    <div id="skrollr-body" class="container">
       <div class="wrap">
         <header class="header">
           <div class="header-logo">
@@ -25,10 +25,18 @@
           <div class="screens"><img src="/eppyk-web/images/screen-left.png" class="left"><img src="/eppyk-web/images/screen-center.png" class="center"><img src="/eppyk-web/images/screen-right.png" class="right"></div>
           <div class="stars-top"><img src="/eppyk-web/images/stars-top.png"></div>
         </div>
-        <div class="boy-star"><img src="/eppyk-web/images/boy-with-star.png" class="boy-image">
+        <div class="boy-star">
+          <div class="boy-image">
+            <div class="hlopchyk">
+              <div data-200-center="transform:translate3d(100px,-100px,0) rotate(10deg);" data--100-center="transform:translate3d(0,0,0) rotate(0)" class="hlopchyk-star"></div>
+              <div class="hlopchyk-dog"></div>
+              <div class="hlopchyk-boy"></div>
+              <div class="hlopchyk-globus"></div>
+            </div>
+          </div>
           <div class="text">
             <h2 class="h2">EPPYK MOVIE ANSWERS</h2>
-            <p>It’s a new way of getting solutions on hardest problems. It’ll give you new magic experience with the answers to everyday questions.<br>Who will you kiss today? Why should you buy this bottle of vodka?<br>Who killed Kennedy?<br>Just ask. And shake. And get ready.</p>
+            <p class="movie-answers-description">It’s a new way of getting solutions on hardest problems. It’ll give you new magic experience with the answers to everyday questions.<br>Who will you kiss today? Why should you buy this bottle of vodka?<br>Who killed Kennedy?<br>Just ask. And shake. And get ready.</p>
             <div class="market-links-small"><a href="#" class="link-appstore-small"></a><a href="#" class="link-googleplay-small"></a></div>
           </div>
         </div>
@@ -59,6 +67,7 @@
       <div class="footer">Copyright © 2016 All Rights Reserved</div>
     </div>
     <!-- build:js js/app.min.js-->
+    <script src="/eppyk-web/bower_components/skrollr/dist/skrollr.min.js"></script>
     <script src="/eppyk-web/js/app.js"></script>
     <!-- endbuild-->
   </body>
