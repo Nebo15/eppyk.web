@@ -21,9 +21,16 @@ html
         header.header
           .header-logo
             .logo
-          h2.header-title.h1 What’s your movie advice for today?
-          .header-subtitle Shake your phone to get the answer!
+          quote.header-quote.cap
+            | “In one of those stars I shall be living.
+            br
+            | In one of them I shall be laughing”
+            div.header-quote-author Antoine de Saint-Exupéry
+              br
+              | The Little Prince
 
+          .header-subtitle While in doubt, turn to movie stars!
+          h2.header-title.h1 Shake your phone to get the answer to any question!
           .market-links
             a.link-appstore(href="#")
             a.link-googleplay(href="#")
@@ -57,16 +64,28 @@ html
         .features
           h2.h1 Don’t waste your time on useless features
           .features-in
-            .left: .feature
-              .icon.icon-ask
-              .feature-text
-                span Ask
-                | Just ask
-            .right: .feature
-              .icon.icon-shake
-              .feature-text
-                span Shake
-                | Shake
+            .left
+              .feature
+                .icon.icon-ask
+                .feature-text
+                  span Ask
+                  | any question
+              .feature
+                .icon.icon-save
+                .feature-text
+                  span Save
+                  | any answer you like
+            .right
+              .feature
+                .icon.icon-shake
+                .feature-text
+                  span Shake
+                  | as many times you want
+              .feature
+                .icon.icon-share
+                .feature-text
+                  span Share
+                  | it with your friends
             .phone-screen
               img(src="images/phone-screen.png")
         .be-happy

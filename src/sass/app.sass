@@ -6,8 +6,17 @@
 
 @import lib/base
 
++font('Montserrat', 'montserrat/Montserrat-Black', 900)
++font('Montserrat', 'montserrat/Montserrat-Extrabold', 800)
++font('Montserrat', 'montserrat/Montserrat-Bold', 700)
++font('Montserrat', 'montserrat/Montserrat-SemiBold', 600)
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700)
++font('Montserrat', 'montserrat/Montserrat-Regular', 400)
++font('Montserrat', 'montserrat/Montserrat-Light', 300)
++font('Montserrat', 'montserrat/Montserrat-UltraLight', 200)
++font('Montserrat', 'montserrat/Montserrat-Hairline', 100)
+
+//@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700)
 
 .pull-right
   float: right
@@ -74,6 +83,7 @@ $break-phone: 320
 
 
 .header
+  position: relative
   text-align: center
   .header-logo
     margin-left: -375px
@@ -84,13 +94,33 @@ $break-phone: 320
     overflow: hidden
   .header-subtitle
     margin-top: 24px
+.header-quote
+  text-align: left
+
+  width: 295px
+  margin-left: auto
+  display: block
+
+  margin-top: -50px
+  margin-bottom: 50px
+
+  font-weight: 400
+  font-style: italic
+  font-size: 16px
+  .header-quote-author
+
+    font-size: 14px
+    margin-left: auto
+    width: 189px
+    margin-top: 12px
+    font-style: normal
 .h1
   font-size: 36px
   font-weight: bold
 .header-subtitle
   color: $yellow
-  font-size: 20px
-
+  font-size: 23px
+  font-weight: 700
 .market-links
   margin-top: 44px - 10px // 10px is margin of links
   margin-left: -30px
@@ -198,43 +228,50 @@ $break-phone: 320
   margin-top: 40px
   .h1
     text-align: center
+  .left
+    width: 50%
+    float: left
+  .right
+    width: 50%
+    float: left
+  .phone-screen
+    clear: both
+    padding-top: 80px
+
   .feature
     text-align: center
-  padding: gutter()
-  .features-in
-    margin-top: 40px
-    +clr
-    .left
-      float: left
-      text-align: center
-      width: 50%
+  +min-screen($break-tablet)
+    .features-in
+      position: relative
+    .feature
+      text-align: left
+    .left, .right
+      width: 200px
+      position: absolute
+      top: 50px
     .right
-      float: right
-      text-align: center
-      width: 50%
-    .phone-screen
-      clear: both
-      padding-top: 30px
-    +min-screen($break-tablet)
-      .left, .right
-        width: 25%
-        padding-top: 100px
-      .left
-        text-align: right
-      .right
-        text-align: left
-      .phone-screen
-        clear: none
-        width: 50%
-        margin-left: 25%
+      left: 50%
+      transform: translateX(200px)
+    .left
+      right: 50%
+      transform: translateX(-120px)
 
 
+.features
+  .feature
+    margin-top: 80px
 
 .feature
-  display: inline-block
+  display: block
+  //text-align: left
+  .icon
+    margin-left: 10px
+    margin-bottom: 10px
+    height: 66px
+    background-position: center bottom
 
 .feature-text
-  text-align: left
+  //text-align: left
 
   span
     display: block
