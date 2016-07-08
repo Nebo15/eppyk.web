@@ -31,3 +31,27 @@
   width: 62px;
   height: 59px;
   display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000318}}
+.icon-save {
+  background: url("../images/svg/save.svg") no-repeat 0 0;
+  background-size: 41px 52px 100%;
+  width: 41px;
+  height: 52px;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000320}}
+.icon-share {
+  background: url("../images/svg/share.svg") no-repeat 0 0;
+  background-size: 49px 52px 100%;
+  width: 49px;
+  height: 52px;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000322}}
+.icon-crown {
+  background: url("../images/svg/crown.svg") no-repeat 0 0;
+  background-size: 39px 26px 100%;
+  width: 39px;
+  height: 26px;
+  display: inline-block; }
