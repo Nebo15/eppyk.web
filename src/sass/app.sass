@@ -378,3 +378,43 @@ p
   margin: 60px 0 40px
   .market-links
     display: inline-block
+
+.laptop-block
+  margin: 100px 0 150px
+  &__wrap
+
+    //background-size: contain
+    //width: 100%
+
+    //height: 500px
+
+    margin-left: auto
+    margin-right: auto
+    position: relative
+    text-align: center
+
+  &__in
+
+    position: relative
+    display: inline-block
+
+    iframe
+
+      max-width: 100%
+      position: relative
+      z-index: 1
+
+    &:before
+      display: block
+      content: ''
+      background: url("../images/svg/laptop-mockup.svg") no-repeat center top
+
+      position: absolute
+      z-index: 0
+      //background-color: red
+      top: -6%
+      left: -11%
+      right: -11%
+      bottom: -20%
+      +max-screen(720)
+        display: none
