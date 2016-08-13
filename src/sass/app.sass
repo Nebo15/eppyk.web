@@ -1,4 +1,3 @@
-
 @import components/susy
 @import components/colors
 
@@ -20,12 +19,16 @@
 
 .pull-right
   float: right
+
 .pull-left
   float: left
+
 .vertical-align
   vertical-align: middle
+
 .center
   text-align: center
+
 .uppercase
   text-transform: uppercase
 
@@ -79,9 +82,8 @@ $break-phone: 320
   .logo
 
 .logo
-  +svg(logo,287,103)
+  +svg(logo, 287, 103)
   display: inline-block
-
 
 .header
   position: relative
@@ -91,10 +93,10 @@ $break-phone: 320
     margin-right: -375px
     margin-bottom: -60px
 
-
     overflow: hidden
   .header-subtitle
     margin-top: 24px
+
 .header-quote
   text-align: left
 
@@ -115,16 +117,20 @@ $break-phone: 320
     width: 189px
     margin-top: 12px
     font-style: normal
+
 .h1
   font-size: 36px
   font-weight: bold
+
 .header-subtitle
   color: $yellow
-  font-size: 23px
+  font-size: 30px
   font-weight: 700
   margin-bottom: 26px
+
 .market-links
-  margin-top: 44px - 10px // 10px is margin of links
+  margin-top: 44px - 10px
+  // 10px is margin of links
   margin-left: -30px
   position: relative
   z-index: 2
@@ -135,8 +141,10 @@ $break-phone: 320
     margin-top: 10px
     &:hover
       box-shadow: 0 1px 13px -4px rgba(black, .9)
+
 .market-links-small
-  margin-top: 44px - 10px // 10px is margin of links
+  margin-top: 44px - 10px
+  // 10px is margin of links
   margin-left: -15px
   a
     display: inline-block
@@ -148,6 +156,7 @@ $break-phone: 320
 .link-appstore
   +svg(appstore, 170, 51)
   border-radius: 5px
+
 .link-appstore-small
   +svg(appstore, 125, 38)
   border-radius: 5px
@@ -159,7 +168,6 @@ $break-phone: 320
 .link-googleplay-small
   +svg(googleplay, 113, 38)
   border-radius: 5px
-
 
 .screens
   position: relative
@@ -194,7 +202,7 @@ $break-phone: 320
     position: absolute
     bottom: 0
     width: 100%
-    //transition: transform .3s ease-in-out
+//transition: transform .3s ease-in-out
 
 .boy-star
   position: relative
@@ -205,6 +213,10 @@ $break-phone: 320
     display: none
   text-align: center
 
+  .text
+    text-align: center
+    p
+      margin-bottom: 20px
 
   +min-screen($break-tablet)
     text-align: left
@@ -216,7 +228,7 @@ $break-phone: 320
       //margin-top: 200px
 
       position: absolute
-      top: 150px
+      top: 100px
       left: 290px
 
 .movie-answers-description
@@ -256,7 +268,6 @@ $break-phone: 320
       right: 50%
       transform: translateX(-120px)
 
-
 .features
   .feature
     margin-top: 80px
@@ -281,12 +292,13 @@ $break-phone: 320
     margin-bottom: 10px
 
 p
-  font-size: 14px
-  font-weight: 400
+  //font-size: 14px
+  //font-weight: 400
+
 .h2
   font-size: 30px
   font-weight: 600
-  text-transform: uppercase
+  //text-transform: uppercase
 
 .phone-screen
   text-align: center
@@ -297,6 +309,7 @@ p
     margin-right: -216px
     margin-top: -90px
     margin-bottom: -90px
+
 .be-happy
   margin-top: 74px
   text-align: center
@@ -327,6 +340,13 @@ p
   margin-top: 80px
   font-size: 11px
   text-transform: uppercase
+  .icon
+    vertical-align: middle
+  .icon-monkey
+    margin-left: 8px
+    margin-top: -4px
+  p
+    margin-bottom: 15px
 
 .hlopchyk
   position: relative
@@ -353,3 +373,8 @@ p
     right: -117px
     z-index: 3
 
+.market-block
+  text-align: center
+  margin: 60px 0 40px
+  .market-links
+    display: inline-block

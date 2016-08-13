@@ -30,10 +30,30 @@ html
               | The Little Prince
 
           .header-subtitle While in doubt, turn to movies!
-          h2.header-title.h1 Shake your phone to get the answer to any question!
+          h2.header-title.h1 Shake your phone to get the answer
+            br
+            | to any question!
           .market-links
             a.link-appstore(href="#")
             a.link-googleplay(href="#")
+        .boy-star
+          .boy-image: .hlopchyk
+            .hlopchyk-star
+            .hlopchyk-dog
+            .hlopchyk-boy
+            .hlopchyk-globus
+          .text
+            h2.h2 EPPYK Movie answers
+            .movie-answers-description Have you ever wondered which way to go?
+            p Have you ever had some serious or funny questions you wished you would have had more insight into to make up your mind? Life is full of uncertainties and it comes as no surprise people used a coin to help the balance tip one way or the other.
+            p Now there is no need for heads and tails because instead of flipping a coin there are favourite movie stars to turn to for the inspiration and help! It is also very funny.
+            p Let’s expand our universe with unexpected stars we catch!
+            p You just type the question, shake the phone, and get the answer from a movie.
+            p You can shake again, if you are looking for something else, save the answer, and share it with friends.
+
+            .market-links-small
+              a.link-appstore-small(href="#")
+              a.link-googleplay-small(href="#")
         .preview
           .stars-bottom(data-400-top="transform:translate3d(0,-15%,0)", data--300-top="transform:translate3d(0,10%,0)")
             img(src="images/stars-bottom-0.png")
@@ -45,22 +65,9 @@ html
             img.right(src="images/screen-right.png")
           .stars-top(data-200-top="transform:translate3d(0,-10%,0)", data--200-top="transform:translate3d(0,10%,0)")
             img(src="images/stars-top.png")
-        .boy-star
-          .boy-image: .hlopchyk
-            .hlopchyk-star
-            .hlopchyk-dog
-            .hlopchyk-boy
-            .hlopchyk-globus
-          .text
-            h2.h2 EPPYK MOVIE ANSWERS
-            .movie-answers-description Have you ever wondered which way to go?
-              p Have you ever had some serious or funny questions you wished you would have had more insight about to make up your mind?
-              p Life is full of uncertainties and it comes as no surprise people used a coin to help the balance tip one way or the other.
-              p Now, of course, there is no need for heads and tails because instead of a coin flipping there are favorite movies to turn to for the inspiration and help!
-              p Let’s expand our universe with unexpected stars we catch!
-            .market-links-small
-              a.link-appstore-small(href="#")
-              a.link-googleplay-small(href="#")
+        .market-block: .market-links
+          a.link-appstore(href="#")
+          a.link-googleplay(href="#")
         .features
           h2.h1 Simple to use, yet hilariously witty!
           .features-in
@@ -101,7 +108,11 @@ html
           .market-links
             a.link-appstore(href="#")
             a.link-googleplay(href="#")
-      .footer Copyright © 2016 All Rights Reserved
+      .footer
+        p
+          a(href="mailto:eppykmonkey@gmail.com") eppykmonkey@gmail.com
+          i.icon.icon-monkey
+        p Copyright Eppyk Ltd. © 2016 All Rights Reserved
     // build:js js/app.min.js
     script(src='bower_components/skrollr/dist/skrollr.min.js')
     script(src='js/app.js')
