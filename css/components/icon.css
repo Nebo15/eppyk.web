@@ -1,14 +1,14 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\000034}}
 .icon {
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\000038}}
 .icon-logo {
   background: url('../../images/icons-s90695f3149.png') 0 0 no-repeat;
   width: 100px;
   height: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000311}}
 .icon-shake {
   background: url("../images/svg/shake.svg") no-repeat 0 0;
   background-size: 51px 67px 100%;
@@ -16,7 +16,7 @@
   height: 67px;
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000313}}
 .icon-ask {
   background: url("../images/svg/ask.svg") no-repeat 0 0;
   background-size: 53px 66px 100%;
@@ -24,7 +24,7 @@
   height: 66px;
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000315}}
 .icon-star {
   background: url("../images/svg/star.svg") no-repeat 0 0;
   background-size: 62px 59px 100%;
@@ -32,7 +32,7 @@
   height: 59px;
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000317}}
 .icon-save {
   background: url("../images/svg/save.svg") no-repeat 0 0;
   background-size: 41px 52px 100%;
@@ -40,7 +40,7 @@
   height: 52px;
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000319}}
 .icon-share {
   background: url("../images/svg/share.svg") no-repeat 0 0;
   background-size: 49px 52px 100%;
@@ -48,10 +48,18 @@
   height: 52px;
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000321}}
 .icon-crown {
   background: url("../images/svg/crown.svg") no-repeat 0 0;
   background-size: 39px 26px 100%;
   width: 39px;
+  height: 26px;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/eppyk-web\/src\/sass\/components\/icon\.sass}line{font-family:\0000323}}
+.icon-monkey {
+  background: url("../images/svg/monkey.svg") no-repeat 0 0;
+  background-size: 26px 26px 100%;
+  width: 26px;
   height: 26px;
   display: inline-block; }
