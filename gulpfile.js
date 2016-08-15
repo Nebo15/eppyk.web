@@ -1,4 +1,4 @@
-require('dotenv').config(); // .env file
+require('dotenv').config({silent: true}); // .env file
 
 var gulp = require('gulp'),
   nconf = require('nconf'),
